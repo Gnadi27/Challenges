@@ -3,6 +3,8 @@
 using namespace std;
 
 void check_guess(const int secret_number, const int guess, bool* checker);
+void int_to_array(const int num, int* arr);
+short size_of_int(const int num);
 
 int main() {
 	int secret_number;
@@ -47,4 +49,13 @@ void check_guess(const int secret_number, const int guess, bool* checker){
 		}
 		i = i / 10;
 	}
+}
+
+void int_to_array(const int num, int* arr) {
+	int i=0;
+	
+}
+
+short size_of_int(const int num) {
+	num/
 }
